@@ -6,15 +6,21 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
+            android:background="@drawable/text_box"
+            android:foreground="@drawable/text_box"
             android:icon="@android:drawable/ic_menu_edit"
-            android:title="Create" />
+            android:title="CREATE" />
         <item
             android:id="@+id/nav_gallery"
+            android:background="@drawable/text_box"
+            android:foreground="@drawable/text_box"
             android:icon="@android:drawable/ic_menu_crop"
-            android:title="Saved" />
+            android:title="ICONS" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Settings" />
+            android:background="@drawable/text_box"
+            android:foreground="@drawable/text_box"
+            android:icon="@drawable/help"
+            android:title="HELP" />
     </group>
 </menu>

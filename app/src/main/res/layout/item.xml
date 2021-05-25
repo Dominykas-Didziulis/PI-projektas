@@ -5,19 +5,10 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/Gal1"
-        android:layout_width="135dp"
-        android:layout_height="26dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/Gal2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Gal2" />
-
     <ImageView
         android:id="@+id/Gal2"
-        android:layout_width="152dp"
-        android:layout_height="180dp"
+        android:layout_width="96dp"
+        android:layout_height="118dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

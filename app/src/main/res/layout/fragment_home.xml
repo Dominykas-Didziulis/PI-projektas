@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="472dp"
-        android:text="TextView"
+        android:text="YOUR TEXT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -65,7 +65,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/poz"
         android:foreground="@drawable/poz"
         app:backgroundTint="@color/material_on_background_disabled"
@@ -142,7 +142,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/save"
         android:foreground="@drawable/save"
         app:backgroundTint="@color/material_on_background_disabled"
@@ -235,5 +235,62 @@
         app:backgroundTint="@color/material_on_background_disabled"
         app:layout_constraintBottom_toBottomOf="@+id/suptext"
         app:layout_constraintStart_toEndOf="@+id/suptext" />
+
+    <Button
+        android:id="@+id/button66"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/lleft"
+        android:foreground="@drawable/lleft"
+        app:layout_constraintBottom_toBottomOf="@+id/button13"
+        app:layout_constraintStart_toEndOf="@+id/button13"
+        app:layout_constraintTop_toTopOf="@+id/button13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button67"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/rright"
+        android:foreground="@drawable/rright"
+        app:layout_constraintBottom_toBottomOf="@+id/button11"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="@+id/button11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY"
+        app:layout_constraintBottom_toBottomOf="@+id/button66"
+        app:layout_constraintEnd_toStartOf="@+id/button67"
+        app:layout_constraintStart_toEndOf="@+id/button66"
+        app:layout_constraintTop_toTopOf="@+id/button67" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="EDIT TEXT"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/sdwtext"
+        app:layout_constraintStart_toStartOf="@+id/suptext"
+        app:layout_constraintTop_toBottomOf="@+id/suptext" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="EDIT LOGO"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,6 @@ class Adapter (val duom: List<Images>) : RecyclerView.Adapter<Adapter.ViewHolder
 {
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val pav = view.findViewById<ImageView>(R.id.Gal2)
-        val nam = view.findViewById<TextView>(R.id.Gal1)
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item, parent, false))
@@ -25,7 +24,6 @@ class Adapter (val duom: List<Images>) : RecyclerView.Adapter<Adapter.ViewHolder
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val dat = duom[position]
         holder.pav.setImageResource(dat.Image)
-        holder.nam.text = dat.Name
 
     }
 }
